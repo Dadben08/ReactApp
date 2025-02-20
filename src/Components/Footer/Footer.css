@@ -1,0 +1,32 @@
+/* Footer Styling */
+.footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Hover Effect */
+  .footer p {
+    margin: 0;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .footer p:hover {
+    color: #e74c3c;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 0.9rem;
+      padding: 15px;
+    }
+  }
+  
